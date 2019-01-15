@@ -8,7 +8,7 @@ First and foremost,
 
     composer require uzzaircode/password-strength
 
-then include the assets file in your master template.
+then include the blade file which contains assets link in your master template.
 
     @include('password-strength::asset')
 
