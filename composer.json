@@ -7,7 +7,7 @@
         "name": "Uzzair Baharudin",
         "email": "uzzaircode@gmail.com"
     }],
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
