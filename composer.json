@@ -1,0 +1,27 @@
+{
+    "name": "uzzaircode/password-strength",
+    "description": "password strength package for html",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Uzzair Baharudin",
+        "email": "uzzaircode@gmail.com"
+    }],
+    "minimum-stability": "dev-master",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Uzzaircode\\PasswordStrength\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Uzzaircode\\PasswordStrength\\PasswordStrengthServiceProvider"
+            ],
+            "aliases": {
+                "PasswordStrength": "Uzzaircode\\PasswordStrength\\PasswordStrengthFacade"
+            }
+        }
+    }
+}
