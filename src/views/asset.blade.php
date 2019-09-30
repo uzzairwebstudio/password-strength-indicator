@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="vendor/uzzaircode/password-strength/src/assets/password-strength.css">
+<link rel="stylesheet" href="vendor/uzzairwebstudio/password-strength/src/assets/password-strength.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {

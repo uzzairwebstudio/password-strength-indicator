@@ -1,6 +1,6 @@
 <?php
 
-namespace Uzzaircode\PasswordStrength;
+namespace UzzairWebStudio\PasswordStrength;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,7 +20,7 @@ class PasswordStrengthServiceProvider extends ServiceProvider
         });
         $this->app->alias(PasswordStrength::class, 'password-strength');
         // include __DIR__ . '/asset/web.php';
-        // $this->app->make('Uzzaircode\Math\MathController');
+        // $this->app->make('UzzairWebStudio\Math\MathController');
         $this->publishes([
             __DIR__ . '/assets' => base_path('public/password-strength'),
             __DIR__ . '/views'  => base_path('resources/views/vendor/password-strength')

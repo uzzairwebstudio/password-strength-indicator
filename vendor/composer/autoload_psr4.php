@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Uzzaircode\\PasswordStrength\\' => array($baseDir . '/src'),
+    'UzzairWebStudio\\PasswordStrength\\' => array($baseDir . '/src'),
 );

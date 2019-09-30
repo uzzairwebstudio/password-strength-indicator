@@ -1,5 +1,5 @@
 <?php
-namespace Uzzaircode\PasswordStrength;
+namespace UzzairWebStudio\PasswordStrength;
 
 use Illuminate\Support\Facades\Facade;
 

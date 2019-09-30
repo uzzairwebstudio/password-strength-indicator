@@ -9,12 +9,12 @@ class ComposerStaticInita430141fdcaca3f2460166af9a42d525
     public static $prefixLengthsPsr4 = array (
         'U' => 
         array (
-            'Uzzaircode\\PasswordStrength\\' => 28,
+            'UzzairWebStudio\\PasswordStrength\\' => 28,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Uzzaircode\\PasswordStrength\\' => 
+        'UzzairWebStudio\\PasswordStrength\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

@@ -6,7 +6,7 @@ This is the password stength indicator package written for Laravel. The indicato
 
 First and foremost,
 
-    composer require uzzaircode/password-strength
+    composer require uzzairwebstudio/password-strength
 
 then include the blade file which contains assets link in your master template.
 
