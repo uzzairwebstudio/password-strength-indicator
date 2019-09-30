@@ -3,12 +3,18 @@
     "description": "password strength package",
     "type": "library",
     "license": "MIT",
-    "authors": [{
-        "name": "Uzzair Baharudin",
-        "email": "uzzairwebstudio@gmail.com"
-    }],
+    "authors": [
+        {
+            "name": "Uzzair Baharudin",
+            "email": "uzzairwebstudio@gmail.com",
+            "role": "Founder"
+        }
+    ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "~5.8.0|~5.9.0|^6.0"
+    },
     "autoload": {
         "psr-4": {
             "UzzairWebStudio\\PasswordStrength\\": "src/"
